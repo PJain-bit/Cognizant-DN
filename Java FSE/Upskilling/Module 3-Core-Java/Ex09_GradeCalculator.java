@@ -18,5 +18,8 @@ public class Ex09_GradeCalculator {
         }
         
         System.out.println("The student's grade is: " + grade);
+    
+        scanner.close();
     }
+    
 }
