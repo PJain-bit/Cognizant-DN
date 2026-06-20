@@ -1,0 +1,9 @@
+package Deepskilling.EngineeringConcepts.DesignPatternandPrinciples.Exercise7;
+
+public class MobileApp implements Observer {
+
+    @Override
+    public void update(double stockPrice) {
+        System.out.println("Mobile App Updated: ₹" + stockPrice);
+    }
+}
